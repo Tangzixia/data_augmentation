@@ -1,6 +1,7 @@
 ### 复制：https://blog.csdn.net/wuguangbin1230/article/details/80019818 
 '''
-通过tf.image.sample_distorted_bounding_box函数可以进行裁剪，根据对应的位置对图片进行裁剪～
+通过　tf.image.sample_distorted_bounding_box函数可以进行裁剪，根据对应的位置对图片进行裁剪～
+tf.image.sample_distortd_bounding_box解析：https://blog.csdn.net/tz_zs/article/details/77920116
 '''
 
 import tensorflow as tf
