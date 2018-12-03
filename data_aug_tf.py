@@ -1,5 +1,7 @@
-### 复制：https://blog.csdn.net/tiandd12/article/details/80105430 
-
+''' 
+复制：https://blog.csdn.net/tiandd12/article/details/80105430 
+更多可参考：https://www.jianshu.com/p/36a23c834bb6
+'''
 #encoding:utf-8
 '''
 tf 参考链接 ：https://tensorflow.google.cn/api_guides/python/image
