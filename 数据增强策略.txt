@@ -1,0 +1,3 @@
+主要参考：
+https://blog.csdn.net/u010801994/article/details/81914716
+利用tensorflow提供的api接口可在线进行数据增强处理～
