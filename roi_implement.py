@@ -27,3 +27,25 @@ with tf.Session() as Sess:
         distort_image = tf.slice(image_float, bbox_begin, bbox_size)
         distort_image = tf.expand_dims(distort_image, dim=0)
         image_with_box = tf.image.draw_bounding_boxes(original_image, boxes=bbox_2)
+       
+       
+  '''
+  ('bbox: ', array([[[0.19375   , 0.1015625 , 0.90208334, 0.775     ]]], dtype=float32))
+('bbox_begin: ', array([93, 65,  0], dtype=int32))
+('bbox_size: ', array([340, 431,  -1], dtype=int32))
+('bbox: ', array([[[0.00208333, 0.103125  , 0.79791665, 0.6       ]]], dtype=float32))
+('bbox_begin: ', array([ 1, 66,  0], dtype=int32))
+('bbox_size: ', array([382, 318,  -1], dtype=int32))
+('bbox: ', array([[[0.16041666, 0.0484375 , 0.90208334, 0.6828125 ]]], dtype=float32))
+('bbox_begin: ', array([77, 31,  0], dtype=int32))
+('bbox_size: ', array([356, 406,  -1], dtype=int32))
+('bbox: ', array([[[0.18125  , 0.3828125, 0.8541667, 0.990625 ]]], dtype=float32))
+('bbox_begin: ', array([ 87, 245,   0], dtype=int32))
+('bbox_size: ', array([323, 389,  -1], dtype=int32))
+('bbox: ', array([[[0.15      , 0.121875  , 0.72083336, 0.64375   ]]], dtype=float32))
+('bbox_begin: ', array([72, 78,  0], dtype=int32))
+('bbox_size: ', array([274, 334,  -1], dtype=int32))
+('bbox: ', array([[[0.13958333, 0.33125   , 0.95      , 0.90625   ]]], dtype=float32))
+('bbox_begin: ', array([ 67, 212,   0], dtype=int32))
+('bbox_size: ', array([389, 368,  -1], dtype=int32))
+  '''
